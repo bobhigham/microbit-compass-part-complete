@@ -1,4 +1,5 @@
 let heading = ""
+input.calibrateCompass()
 basic.forever(function () {
     if (input.compassHeading() < 45) {
         heading = "N"
